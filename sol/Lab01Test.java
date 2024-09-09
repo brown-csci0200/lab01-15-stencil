@@ -20,4 +20,9 @@ public class Lab01Test {
         return FuncListBuilder;
     }
 
+    @Test
+    public void testExample() {
+        Assert.assertEquals(2, 1 + 1);
+    }
+
 }
